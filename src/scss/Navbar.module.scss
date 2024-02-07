@@ -1,0 +1,31 @@
+@import './Colors.scss';
+
+.btn{
+    color: $primary-text;
+    font-weight: bold;
+    width: min-content;
+    font-size: xx-large;
+
+    button{
+        transition: 150ms;
+
+        letter-spacing: 1px;
+        border-radius: 4px;
+    }
+
+    & button:hover{
+        scale: 1.1;
+    }
+
+    &_selected{
+        @extend .btn;
+        div{
+            transition: 150ms;
+
+            border: 2px solid $primary-light;
+            border-radius: 2rem;
+            width: calc(100% - 12px);
+            margin: 0 auto;
+        }
+    }
+}
