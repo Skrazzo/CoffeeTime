@@ -1,3 +1,4 @@
+@import './Colors.scss';
 @font-face {
     font-family: curvy-font;
     src: url('/src/assets/curvy_font.ttf');
@@ -9,13 +10,12 @@
     letter-spacing: 8px;
     font-size: 8rem;
     font-weight: bold;
-    color: white;
+    color: $primary-text;
     font-family: curvy-font;
 }
 
 .headline{
-    margin-top: 1.5rem;
-    color: white;
+    color: $primary-text;
 
     text-transform: uppercase;
     font-weight: bold;
@@ -25,8 +25,34 @@
 }
 
 .paragraph{
-    margin-top: 1rem;
     max-width: 800px;
-    color: rgba($color: white, $alpha: 0.8);
+    color: rgba($color: $primary-text, $alpha: 0.8);
     font-size: larger;
 }
+
+.btn{
+
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    
+    background-color: $primary-light;
+    color: $primary-text;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.coffee{
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url('/src/assets/images/775.png');
+
+    right: 0;
+    top: -70px;
+    
+}
+
