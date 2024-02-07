@@ -5,4 +5,9 @@ $secondary-text: #51565E;
 
 body{
     background-color: $primary-dark;
+    // overflow-x: hidden;
+}
+
+html{
+    overflow-x: hidden;
 }

@@ -41,18 +41,35 @@
     font-weight: bold;
 }
 
-.coffee{
-    position: absolute;
-    width: 60vw;
-    height: 100vh;
 
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-image: url('/src/assets/images/775.png');
 
-    right: 0;
-    top: -70px;
-    
+@media (max-width: 1024px) { 
+    .font{
+        text-align: center;
+        font-size: 3rem;
+    }
+   
+    .headline{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .paragraph{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .btn{
+        
+
+        padding: 0.5rem 1.5rem;
+        border-radius: 1rem;
+        
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 }
 
+@media (max-width: 1536px){
+    
+}

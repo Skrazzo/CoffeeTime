@@ -29,6 +29,7 @@ export default function AbsoluteImage({
                 width: width,
                 height: height,
                 ...style,
+                objectFit: 'contain'
                 
             }}
             {...props}
