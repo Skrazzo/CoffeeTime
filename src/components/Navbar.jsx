@@ -3,7 +3,7 @@ import NavButton from './NavButton';
 
 export default function Navbar() {
     return (
-        <div className='p-12 flex justify-between items-center'>
+        <div className='py-12 px-20 flex justify-between items-center'>
             <div className='flex gap-14 items-center'>
                 <NavButton text='Home' selected/>
                 <NavButton text='About' />
