@@ -11,7 +11,7 @@ export default function FirstSection({ xl, xl2, sm }) {
     // console.log('xl2', xl2);
     
     return (
-        <div className='relative'>
+        <div className={`relative`}>
             <p className={`lg:ml-20 mt-20 ${s.font}`}>Coffee Time</p>
             <p className={`lg:ml-20 mt-8 ${s.headline}`}>your headline</p>
             <p className={`lg:ml-20 mt-4 ${s.paragraph}`}>Ullamco veniam proident aute enim. Consequat culpa qui elit Lorem laboris anim laboris sint voluptate. Consequat sint dolore mollit eiusmod laborum incididunt. Anim officia laborum exercitation eu.</p>

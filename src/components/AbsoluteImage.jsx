@@ -10,7 +10,8 @@ export default function AbsoluteImage({
             left = 'auto',
             src = '',
             rotate = '0deg',
-            style = {}
+            style = {},
+            invert = false
         },
         props
     ) {
@@ -29,7 +30,8 @@ export default function AbsoluteImage({
                 width: width,
                 height: height,
                 ...style,
-                objectFit: 'contain'
+                objectFit: 'contain',
+                filter: (invert) ? 'invert(1)' : 'invert(0)',
                 
             }}
             {...props}

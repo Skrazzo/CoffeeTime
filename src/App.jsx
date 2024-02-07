@@ -1,6 +1,7 @@
 import { useMedia } from "use-media";
 import FirstSection from "./components/FirstSection";
 import Navbar from "./components/Navbar";
+import SecondSection from "./components/SecondSection";
 
 export default function App() {
     const xl = useMedia({maxWidth: '1280px'});
@@ -10,6 +11,7 @@ export default function App() {
         <>
             <Navbar />
             <FirstSection xl={xl} xl2={xl2} sm={sm}/>
+            <SecondSection xl={xl} xl2={xl2} sm={sm}/>
         </>
     )
 }

@@ -1,12 +1,15 @@
 @import './Colors.scss';
-@font-face {
-    font-family: curvy-font;
-    src: url('/src/assets/curvy_font.ttf');
+
+.container{
+    position: relative;
+    z-index: 50;
+    background-color: $primary-light;
+    //padding-bottom: 0;
 }
 
 .font{
     margin-top: 1rem;
-
+    max-width: 400px;
     letter-spacing: 8px;
     font-size: 8rem;
     font-weight: bold;
@@ -14,46 +17,36 @@
     font-family: curvy-font;
 }
 
-.headline{
-    color: $primary-text;
-
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 2.5rem;
-
-    letter-spacing: 4px;
-}
 
 .paragraph{
     max-width: 800px;
-    color: rgba($color: $primary-text, $alpha: 0.8);
-    font-size: larger;
+    
+    margin-left: auto;
+    text-align: right;
+    
+    color: rgba($color: $primary-text, $alpha: 1);
+    font-size: x-large;
 }
 
 .btn{
 
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 3rem;
     border-radius: 1rem;
     
-    background-color: $primary-light;
+    background-color: $primary-dark;
     color: $primary-text;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-
-
-
 @media (max-width: 1024px) { 
     .font{
+        letter-spacing: normal;
+        max-width: none;
         text-align: center;
         font-size: 3rem;
     }
    
-    .headline{
-        font-size: 1.5rem;
-        text-align: center;
-    }
 
     .paragraph{
         font-size: 1rem;
@@ -69,8 +62,4 @@
         font-size: 1.5rem;
         font-weight: bold;
     }
-}
-
-@media (max-width: 1536px){
-    
 }
