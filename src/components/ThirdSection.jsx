@@ -8,7 +8,7 @@ import AbsoluteImage from './AbsoluteImage';
 export default function ThirdSection({ xl, xl2, sm }) {
     return (
         <div style={{ paddingTop: '100px' }}>
-            <div className={`p-4 pb-32 lg:p-44 grid grid-cols-2 ${s.container}`}>
+            <div className={`p-4 lg:p-44 grid grid-cols-2 ${s.container}`}>
                 <div>
                     <img className={`${s.image}`} src={coffee}/>
                 </div>
