@@ -1,0 +1,63 @@
+@import './Colors.scss';
+
+.container{
+    position: relative;
+    color: $primary-text;
+    
+}
+
+.font{
+    margin-top: 1rem;
+    max-width: 400px;
+    letter-spacing: 8px;
+    font-size: 8rem;
+    font-weight: bold;
+    color: $primary-text;
+    font-family: curvy-font;
+}
+
+
+.paragraph{
+    
+    color: rgba($color: $primary-text, $alpha: 1);
+    font-size: x-large;
+}
+
+.btn{
+    padding: 0.5rem 3rem;
+    border-radius: 1rem;
+    
+    background-color: $primary-light;
+    color: $primary-text;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.image{
+    
+    object-fit: contain;
+    width: 650px;
+    // height: 650px;
+}
+
+@media (max-width: 1024px) { 
+    .font{
+        letter-spacing: normal;
+        max-width: none;
+        font-size: 3rem;
+    }
+   
+
+    .paragraph{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .btn{
+        padding: 0.5rem 1.5rem;
+        border-radius: 1rem;
+        
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

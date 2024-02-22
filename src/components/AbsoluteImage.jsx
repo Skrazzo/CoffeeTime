@@ -1,3 +1,4 @@
+import { useMedia } from "use-media"
 
 export default function AbsoluteImage({ 
             zIndex = 50,
@@ -15,6 +16,8 @@ export default function AbsoluteImage({
         },
         props
     ) {
+    
+    
     
     return (
         <img 

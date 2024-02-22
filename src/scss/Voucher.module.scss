@@ -1,9 +1,83 @@
+@import './Colors.scss';
+
+.img{
+    aspect-ratio: 16/7;
+    object-fit: cover;
+    width: 80%;
+    margin: 0 auto;
+
+    box-shadow: 0 10px 20px -5px rgba($color: black, $alpha: 0.2);
+}
+
 .container{
     aspect-ratio: 16/7;
     width: 1000px;
     position: relative;
+    margin: 0 auto;
 
-    border: 1px solid white;
+    
     overflow: hidden;
+    box-shadow: 0 5px 20px 0 rgba($color: black, $alpha: 0.5);
+}
 
+.social_media{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    padding: 1rem;
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+    div{
+        background-color: white;
+        padding: 0.3rem;
+        border-radius: 100%;
+        color: $primary-dark;
+    }
+
+    span{
+        color: white;
+    }
+}
+
+.paragraph{
+    text-align: center;
+    color: $primary-text;
+    max-width: 80%;
+}
+
+.font{
+    letter-spacing: 2px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: $primary-text;
+    font-family: curvy-font;
+
+    text-align: right;
+}
+
+.btn{
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    color: $primary-text;
+
+    border-radius: 2rem;
+    background-color: $primary-light;
+    font-weight: bold;
+}
+
+.text_container{
+    gap: 6px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    margin-left: 30%;
+    margin-top: 2rem;
 }
