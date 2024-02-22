@@ -2,8 +2,8 @@ import Voucher from "./Voucher";
 import cup from '../assets/icons/coffee.png';
 import bean from '../assets/icons/coffeeBean.png';
 import pot from '../assets/icons/coffeePot.png';
-import s from '../scss/FifthSection.module.scss';
 import AbsoluteImage from "./AbsoluteImage";
+import s from '../scss/FifthSection.module.scss';
 
 
 export default function FifthSection({ xl, xl2, sm }) {
