@@ -1,0 +1,21 @@
+@import './Colors.scss';
+
+.header{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.container{
+    color: $primary-text;
+    background-color: $primary-light;
+}
+
+.paragraph{
+    font-size: larger;
+    font-weight: 300;
+}
+
+.footer{
+    font-size: x-large;
+    font-weight: 700;
+}

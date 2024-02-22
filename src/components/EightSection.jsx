@@ -3,6 +3,7 @@ import wave from '../assets/waves/wave4.png';
 import branch1 from '../assets/images/newYork.png';
 import branch2 from '../assets/images/jakarta.png';
 import branch3 from '../assets/images/paris.png';
+import wave2 from '../assets/waves/wave5.png';
 
 export default function EightSection({ }) {
     return (
@@ -31,7 +32,7 @@ export default function EightSection({ }) {
                 
                 
             </div>
-            
+            <img src={wave2} className="w-full" />
         </div>
     )
 }
