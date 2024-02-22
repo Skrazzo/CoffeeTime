@@ -1,0 +1,37 @@
+@import './Colors.scss';
+
+.container{
+    position: relative;
+    color: $primary-text;
+    background-color: $primary-light;
+}
+
+.time{
+    text-align: center;
+    font-size: 2rem;
+
+    p{
+        font-size: 2.2rem;
+        font-weight:900;
+    }
+
+}
+
+.font{
+    margin-top: 1rem;
+    letter-spacing: 0.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: $primary-text;
+    font-family: curvy-font;
+}
+
+@media (max-width: 1024px) {
+    .font{
+        letter-spacing: normal;
+        max-width: none;
+        font-size: 3rem;
+    }
+
+    
+}

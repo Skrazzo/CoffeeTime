@@ -1,0 +1,47 @@
+@import './Colors.scss';
+
+
+.font{
+    margin-top: 1rem;
+    letter-spacing: 0.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color: $primary-text;
+    font-family: curvy-font;
+}
+
+.name{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    color: $primary-text;
+    font-family: curvy-font;
+}
+
+.paragraph{
+    text-align: center;
+    max-width: 600px;
+    color: rgba($color: $primary-text, $alpha: 1);
+    font-size: x-large;
+}
+
+@media (max-width: 1024px) { 
+    .font{
+        letter-spacing: normal;
+        max-width: none;
+        font-size: 3rem;
+    }
+   
+
+    .paragraph{
+        font-size: 1rem;
+        
+    }
+
+    .btn{
+        padding: 0.5rem 1.5rem;
+        border-radius: 1rem;
+        
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}

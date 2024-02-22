@@ -6,6 +6,7 @@ import ThirdSection from "./components/ThirdSection";
 import FourthSection from "./components/FourthSection";
 import FifthSection from "./components/FifthSection";
 import SixthSextion from "./components/SixthSextion";
+import SeventhSection from "./components/SeventhSection";
 
 export default function App() {
     const xl = useMedia({maxWidth: '1280px'});
@@ -20,6 +21,7 @@ export default function App() {
             <FourthSection xl={xl} xl2={xl2} sm={sm}/>
             <FifthSection xl={xl} xl2={xl2} sm={sm}/>
             <SixthSextion />
+            <SeventhSection />
         </>
     )
 }
