@@ -1,8 +1,4 @@
-# React + Vite
+# CoffeeTime project, is front end copy from coffee time template
+<img src="https://github.com/Skrazzo/CoffeeTime/assets/58330666/b5c07ead-5432-4872-acdc-8b9208702385" style="margin: 0 auto" />
+<img src="https://github.com/Skrazzo/CoffeeTime/assets/58330666/17ab69f4-8336-42d9-ac84-b1fb1cdcd3a0" style="margin: 0 auto" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
