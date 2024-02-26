@@ -7,8 +7,7 @@ import wave from '../assets/waves/wave1.png';
 import coffee from '../assets/images/775.png';
 
 export default function FirstSection({ xl, xl2, sm }) {
-    // console.log('xl', xl);
-    // console.log('xl2', xl2);
+    
     
     return (
         <div className={`relative`}>

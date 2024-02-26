@@ -1,9 +1,9 @@
 import s from '../scss/NinthSection.module.scss';
 import logo from '../assets/logo.png';
 import { IconBrandFacebookFilled, IconBrandInstagram, IconBrandTwitterFilled, IconBrandYoutubeFilled } from '@tabler/icons-react';
+import scrollToSection from './scrollTo';
 
-
-export default function NinthSection() {
+export default function NinthSection({footer}) {
     return (
         <div className={`${s.container}`}>
             <div className="grid grid-cols-2 lg:grid-cols-4 items-center p-8">
@@ -24,15 +24,10 @@ export default function NinthSection() {
                     <p>your_id@gmail.com</p>
                 </div>
             </div>
-
+            
             <div className={`${s.footer} flex flex-col lg:flex-row justify-between p-8`}>
                 <div className='flex flex-wrap justify-center items-center gap-8 lg:gap-20 lg:pl-12'>
-                    <div>Home</div>
-                    <div>About</div>
-                    <div>Menu</div>
-                    <div>Blog</div>
-                    <div>Shop</div>
-                    <div>Contact</div>
+                    {footer.map(x => <div className='cursor-pointer' onClick={() => scrollToSection(x.label)} >{x.label.charAt(0).toUpperCase() + x.label.slice(1)}</div>)}
                 </div>
                 <div className='flex items-center justify-center gap-8 mt-8'>
                     <div><IconBrandFacebookFilled /></div>

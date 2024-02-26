@@ -1,8 +1,8 @@
 import s from '../scss/Navbar.module.scss';
 
-export default function NavButton({ text, selected }) {
+export default function NavButton({ text, selected, onClick }) {
     return (
-        <div className={(selected) ? `${s.btn_selected}` : `${s.btn}`}>
+        <div onClick={onClick} className={(selected) ? `${s.btn_selected}` : `${s.btn}`}>
             <button>{text}</button>
             <div></div>
         </div>
